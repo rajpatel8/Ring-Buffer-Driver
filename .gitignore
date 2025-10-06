@@ -1,0 +1,80 @@
+# Compiled object files
+*.o
+*.obj
+*.ko
+*.elf
+
+# Compiled executables
+*.exe
+*.out
+*.app
+test
+test_*
+*_test
+
+# Compiled libraries
+*.a
+*.so
+*.dylib
+*.lib
+*.dll
+
+# Build directories
+build/
+bin/
+obj/
+dist/
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Core dumps
+core
+core.*
+*.core
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor/IDE files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+.code-workspace
+
+# Valgrind output
+vgcore.*
+*.log
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile.bak
+
+# Dependency files
+*.d
+*.dep
+
+# Assembly listings
+*.lst
+*.s
+
+# Preprocessor output
+*.i
+
+# Tags files
+tags
+TAGS
