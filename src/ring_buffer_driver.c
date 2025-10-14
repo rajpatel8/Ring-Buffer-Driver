@@ -60,7 +60,7 @@ int rb_write(ring_buffer_t * rb , const void * data , size_t len){
         return len ;
     }
     perror("Fatal : rb_write") ;
-    return 0 ;
+    return -1 ;
 }
 
 int rb_read(ring_buffer_t *rb , void * data ,size_t len) {
